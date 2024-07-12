@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="arun.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="#">Portfolio.</a>
+            </div>
+
+            <nav>
+                <a href="#" id="active">Home</a>
+                <a href="#">About</a>
+                <a href="#"  onclick="scrollToSection()">Skills</a>
+                <a href="#"  onclick="scrollToSection()">Projects</a>
+                <a href="#" onclick="scrollToSection()">Contact</a>
+
+            </nav>
+        </header>
+
+        <section>
+            <div class="main">
+                <div class="detail"><!-- Arun -->
+                    <h1><span>Hello! I am</span><br> <span class="royal"
+                            style="color: #00E8F8;">Arun Kumar</span></h1>
+                    <p>My passion for technology and software development drives
+                        me to continuously learn and adapt to new challenges. I
+                        am eager to bring my problem-solving abilities and
+                        innovative thinking to a dynamic tech environment,
+                        contributing to projects that make a meaningful impact.
+                        I look forward to opportunities where I can grow and
+                        apply my enthusiasm for software development..</p>
+                    <div class="social">
+                        <img
+                            src="data:image/png;base64,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"
+                            alt="Image">
+                    </div>
+
+                </div>
+                <div class="images">
+                    <img
+                        src="data:image/jpeg;base64,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"
+                        alt>
+                </div>
+
+            </div>
+        </section>
+        <div id="skills">
+            <button class="arun" onclick="update()"> <a
+                    href="#">Skills</a></button>
+        </div>
+
+        <div id="result"></div>
+        <script>
+    var div= document.getElementById ("result")  
+    function update()
+    {
+        
+        document.getElementById("result").textContent="I am proficient in a variety of technical skills for software development and date analysis. I have learned programming languages like C++, and I am skilled in front-end web development using HTML and CSS. Additoinally, I have knowledge in database managemnet with SQL, and I am proficient in office productivity tools such as Microsoft Word and Excel. I also have skills in data visualization using Tableau and UI/UX design Figma"
+       
+     
+    }
+ </script>
+        <div id="project">
+            <button id="riya"><a href="#">Projects</a></button>
+            <div id="box1">
+                <img
+                    src="https://kitsguru.com/cdn/shop/products/products-LGME010.jpg?v=1628433037"
+                    alt width="25%" height="25%">
+                <p class="reg">A regenerative braking system is an innovative
+                    technology used in electric and hybrid vehicles to improve
+                    energy efficiency. This system captures and converts the
+                    kinetic energy that is usually lost as heat during braking
+                    into electrical energy. This recovered energy is then stored
+                    in the vehicle's battery for later use, thereby increasing
+                    overall energy efficiency and reducing the need for frequent
+                    recharging or fuel consumption.</p>
+
+                <div id="box2">
+                    <p class="sea">An ocean waste collecting device is an
+                        innovative tool designed to remove plastic and other
+                        debris from ocean waters. These devices often feature
+                        floating barriers and nets that capture waste without
+                        harming marine life. By collecting and removing
+                        pollutants, they help to protect aquatic ecosystems,
+                        reduce plastic pollution, and promote cleaner, healthier
+                        oceans. This technology plays a crucial role in
+                        addressing the growing environmental challenge of ocean
+                        waste, contributing to the preservation of marine
+                        biodiversity and the overall health of our planet.
+
+                    </p>
+                    <img
+                        src="https://static.euronews.com/articles/stories/06/78/07/34/1440x810_cmsv2_c8379402-fa7f-5c13-891d-4d195e989616-6780734.jpg"
+                        alt width="25%" height="25%">
+
+                </div>
+            </div>
+            <script>
+    
+            document.getElementById("riya").addEventListener('click',function()
+        {
+            document.getElementById("box1").style.display='block';
+            document.getElementById("box2").style.display='flex';
+        });
+           
+           
+        
+        </script>
+
+        </div>
+        <footer>
+          
+                <button id="mia"><a href="#">Contact</a></button>
+                <div id="ham">
+              
+            </div>
+      
+        <script>
+            document.getElementById("mia").addEventListener('click',function()
+            {
+                document.getElementById("ham").textContent="Email:arunkrishna1717@gamil.com    Phone no:9384703901"         });
+
+       
+      </script>
+ </footer>
+ <script>
+
+    function scrollToSection(){
+         document.getElementById("skills").scrollIntoView({behavior:"smooth"});
+    }
+    function scrollToSection(){
+         document.getElementById("project").scrollIntoView({behavior:"smooth"});
+    }function scrollToSection(){
+        document.getElementById("mia").scrollIntoView({behavior:"smooth"})
+    }
+ </script>
+
+    </body>
+</html>
